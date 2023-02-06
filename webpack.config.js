@@ -74,7 +74,7 @@ module.exports = {
       ],
     }),
     new Dotenv(),
-    new CleanWebpackPlugin(),
+    new CleanWebpackPlugin
   ],
   optimization: {
     minimize: true,
